@@ -29,7 +29,7 @@ const Register = () => {
     try {
 
       await axios.post(
-        "http://localhost:5000/api/auth/register",
+        "https://ecommerce-kcwm.onrender.com/api/auth/register",
         formData
       )
 
